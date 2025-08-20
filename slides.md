@@ -1,11 +1,9 @@
----
 marp: true
 theme: custom
 paginate: true
 header: "Product Documentation"
 footer: "© 2025 Software Co."
 class: lead
----
 
 <!-- theme custom -->
 <style>
