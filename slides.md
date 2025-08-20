@@ -1,108 +1,77 @@
+---
 marp: true
-theme: custom
+theme: default
 paginate: true
-header: "Product Documentation"
-footer: "© 2025 Software Co."
-class: lead
+_style: |
+  section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1, h2, h3 {
+    color: #004080;
+  }
+---
 
-<!-- theme custom -->
+<!--
+Verification Email: 24f2000846@ds.study.iitm.ac.in
+-->
+
+# Product Documentation
+
+Welcome to the product documentation overview.
+
+---
+
+# Custom Theme & Styling
+
 <style>
 section {
-  font-family: "Arial", sans-serif;
+  background-color: #f0f4f8;
+  color: #333333;
+  padding: 2em;
 }
-h1, h2 {
-  color: #2a9d8f;
-}
-footer {
-  font-size: 12px;
-  color: #888;
-}
-img {
-  border-radius: 12px;
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 </style>
 
-# 📘 Product Documentation Presentation
+---
 
-**Technical Writer**  
-24f2000846@ds.study.iitm.ac.in  
+# Background Image Slide
+
+<!--
+background-image: url('https://raw.githubusercontent.com/your-username/your-repo/main/images/background.jpg')
+background-size: cover
+background-position: center
+-->
+
+<section>
+
+## Product Architecture
+
+Visualizing the architecture with a background image.
+
+</section>
 
 ---
 
-# 🚀 Goals
+# Mathematical Equation
 
-- Maintain documentation in **version control (GitHub)**  
-- Convert easily to **PDF / HTML / PPTX**  
-- Use **consistent styling & images**  
+We analyze the algorithmic complexity:
 
----
-
-# ⚙️ Best Practices
-
-- Keep slides minimal & focused  
-- Use consistent **themes**  
-- Optimize images before including  
-- Add speaker notes where needed  
-
----
-
-# 📊 Algorithmic Complexity
-
-Example: Binary Search  
 $$
-T(n) = O(\log n)
-$$  
-
-Example: Matrix Multiplication  
+T(n) = O(n \log n)
 $$
-T(n) = O(n^3)
-$$  
 
 ---
 
-# 🌄 Background Image Example
+# Contact
 
-![bg](./images/documentation-bg.jpg)  
+For queries, contact:
 
-## Clear and maintainable docs = happy developers! 🎉  
-
----
-
-# 🛠️ Troubleshooting
-
-**Images Not Loading**
-- Use relative paths  
-- Add `--allow-local-files` for PDF export  
-
-**Font Problems**
-- Include web fonts in custom theme  
-- Test with PDF export  
-
-**Build Errors**
-- Check Node.js version  
-- Verify dependencies installed  
-- Use `--verbose` flag  
+**24f2000846@ds.study.iitm.ac.in**
 
 ---
 
-# ⌨️ Keyboard Shortcuts
-
-**In VS Code Marp Preview**  
-- `F1 → "Marp: Toggle Preview"`  
-- `Ctrl+Shift+V` (Preview)  
-- `Ctrl+K V` (Side Preview)  
-
-**In Presentation Mode**  
-- `F` (Fullscreen)  
-- `P` (Presenter View)  
-- `B` (Blackout)  
-
----
-
-# ✅ Summary
-
-- Consistent, version-controlled documentation  
-- Convert easily across formats  
-- Supports **math, themes, images, speaker notes**  
-
-📩 Contact: 24f2000846@ds.study.iitm.ac.in  
